@@ -22,6 +22,6 @@ public class Laboratorio9 {
 	@Test
 	public void verValorTabla() {
 		System.out.println("Tercera Fila, Segunda Columna: " + driver.findElement(By.xpath("//tbody/tr[3]/td[2]")).getText());
-		
+		System.out.println("Cambio en el archivo - GIT");
 	}
 }
